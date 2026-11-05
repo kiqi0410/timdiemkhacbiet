@@ -65,4 +65,4 @@ img.parentNode.appendChild(m);setTimeout(function(){m.remove()},800);beep(220,.2
 document.querySelectorAll(".pic img").forEach(function(im){im.addEventListener("click",function(e){click(e)})});
 document.getElementById("hint").onclick=function(){for(var i=0;i<Z.length;i++)if(!found[i]){say("Gợi ý: hãy nhìn kỹ vật "+Z[i].n.toLowerCase()+" nhé! Nó có màu giống nhau không?","ok");return}say("Em đã tìm đủ rồi!","ok")};
 document.getElementById("reset").onclick=function(){found={};document.querySelectorAll(".ring").forEach(function(r){r.remove()});render();say("Hãy bấm vào chỗ khác nhau giữa hai bức tranh nhé!","")};
-</script></body></html>
+</script></body></html>Tìm điểm khác nhau
